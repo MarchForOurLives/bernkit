@@ -3,11 +3,16 @@
 @import 'include/variables';
 
 body {
-  background-color: whitesmoke;
-  .lato { font-family: 'Lato', sans-serif; }
-  .neuton { font-family: 'Neuton', serif; }
+  background-color: $green;
+  font-family: 'Alice', 'sans-serif';
 
-  a { text-decoration: none; color: $bernieblue;
+  h1, h2,h3,h4,h5, label {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  a { text-decoration: none; color: $blue;
 
     &.donate-button {
       background-color: #F55B5B;
@@ -28,7 +33,7 @@ body {
 
     a {
       padding: 4px 6px;
-      background-color: $bernieblue;
+      background-color: $blue;
       border-radius: 3px;
       display: inline-block;
       color: white;
@@ -42,6 +47,19 @@ body {
   }
 
   text-align: center;
+  header  {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    div.header-container {
+      display: inline-block;
+      text-align: left;
+      width: 1100px;
+      @media (max-width: 1100px) {
+        width: 100%;
+      }
+    }
+  }
   #main-container {
     width: 1100px;
     text-align: left;
@@ -88,7 +106,7 @@ body {
         }
       }
       input[type=radio]:checked + label, input[type=radio]:checked + label:hover {
-        background-color: $bernieblue;
+        background-color: $blue;
         color: white;
         border-color: $darkblue;
       }

@@ -46,15 +46,16 @@ table {
   border-spacing: 0; }
 
 body {
-  background-color: whitesmoke;
+  background-color: #eef7ef;
+  font-family: 'Alice', 'sans-serif';
   text-align: center; }
-  body .lato {
-    font-family: 'Lato', sans-serif; }
-  body .neuton {
-    font-family: 'Neuton', serif; }
+  body h1, body h2, body h3, body h4, body h5, body label {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase; }
   body a {
     text-decoration: none;
-    color: #147FD7; }
+    color: #01458a; }
     body a.donate-button {
       background-color: #F55B5B;
       color: white;
@@ -69,7 +70,7 @@ body {
     font-weight: bold; }
     body .fb-share-button a {
       padding: 4px 6px;
-      background-color: #147FD7;
+      background-color: #01458a;
       border-radius: 3px;
       display: inline-block;
       color: white;
@@ -78,6 +79,17 @@ body {
       margin-right: 1px; }
       body .fb-share-button a:hover {
         background-color: #00559B; }
+  body header {
+    width: 100%;
+    background-color: white;
+    text-align: center; }
+    body header div.header-container {
+      display: inline-block;
+      text-align: left;
+      width: 1100px; }
+      @media (max-width: 1100px) {
+        body header div.header-container {
+          width: 100%; } }
   body #main-container {
     width: 1100px;
     text-align: left;
@@ -125,7 +137,7 @@ body {
         body #filters ul li label:hover {
           background-color: #FFF3CD; }
       body #filters ul li input[type=radio]:checked + label, body #filters ul li input[type=radio]:checked + label:hover {
-        background-color: #147FD7;
+        background-color: #01458a;
         color: white;
         border-color: #00559B; }
   body #canvas-area {

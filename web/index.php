@@ -3,12 +3,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-<title>Bernie's Volunteer Toolkit - All the online tools you can use to help make Bernie the next president of these United States. Pick and choose, volunteer, feel the bern! Don't see your app?</title>
-<meta property="og:image" content="http://www.bernkit.com/img/fb.png" />
-<meta property="og:url" content="http://www.bernkit.com" />
-<meta property="og:title" content="Bernie's Volunteer Toolkit"/>
-<meta property="og:description" content="Bernie's Volunteer Toolkit - BernKit - All the online tools you can use to help make Bernie the next president of these United States. Pick and choose, volunteer, feel the bern! Don't see your app?"/>
-<link href='https://fonts.googleapis.com/css?family=Neuton:400,700,800|Lato:400,300,100,700' rel='stylesheet' type='text/css'>
+<title>March for Our Lives Resources</title>
+<link rel="shortcut icon" type="image/x-icon" href="/img/icon.png">
+<meta property="og:image" content="http://resources.marchforourlives.com/img/fb.png" />
+<meta property="og:url" content="http://resources.marchforourlives.com" />
+<meta property="og:title" content="March for Our Lives Resources"/>
+<meta property="og:description" content="On March 24, the kids and families of March For Our Lives will take to the streets of Washington DC to demand that their lives and safety become a priority and that we end gun violence and mass shootings in our schools today."/>
+<link href="https://fonts.googleapis.com/css?family=Alice|Ubuntu:400,600,900" rel="stylesheet">
 <link href='./css/volunteer-toolkit.css' rel='stylesheet' type='text/css'>
 <body>
   <script>
@@ -20,30 +21,25 @@
   //   fjs.parentNode.insertBefore(js, fjs);
   // }(document, 'script', 'facebook-jssdk'));
   </script>
-  <div id='main-container'>
-    <div id='title-hero'>
-      <h1 class='neuton'>Bernie's Volunteer Toolkit</h1>
-      <h3 class='neuton'>All the online tools <span style='font-weight: 600'>you</span> can use to help make Bernie the next president of these United States.<br/>Take your pick, volunteer, feel the bern! Don't see your app? <a href='http://goo.gl/forms/q0T8FscLYv' target='_blank'>Submit it here.</a></h3>
+  <header>
+    <div class='header-container'>
+      <a href='//marchforourlives.com'><img src='/img/download.png' width="100px"/></a>
     </div>
+  </header>
+  <div id='main-container'>
     <div id='filters'>
       <form id='toolkit-filters'>
         <ul>
           <li class='lato'><input type='radio' name='f' value='All' id='All' checked="checked"/>
             <label for='All'>All</label></li>
-          <li class='lato'><input type='radio' name='f' value='Official' id='Official'/>
-            <label for='Official'>Official</label></li>
-          <li class='lato'><input type='radio' name='f' value='Information' id='Information'/>
-            <label for='Information'>Information</label></li>
-          <li class='lato'><input type='radio' name='f' value='Activism' id='Activism'/>
-            <label for='Activism'>Activism</label></li>
-          <li class='lato'><input type='radio' name='f' value='Voting' id='Voting'/>
-            <label for='Voting'>Voting</label></li>
-          <li class='lato'><input type='radio' name='f' value='Phonebank' id='Phonebank'/>
-            <label for='Phonebank'>Phonebank</label></li>
-          <li class='lato'><input type='radio' name='f' value='Communication' id='Communication'/>
-            <label for='Communication'>Communication</label></li>
-          <li class='lato'><input type='radio' name='f' value='Games' id='Games'/>
-            <label for='Games'>Games</label></li>
+          <li class='lato'><input type='radio' name='f' value='Day Of' id='Day Of'/>
+            <label for='Day Of'>Day Of</label></li>
+          <li class='lato'><input type='radio' name='f' value='Social Media' id='Social Media'/>
+            <label for='Social Media'>Social Media</label></li>
+          <li class='lato'><input type='radio' name='f' value='Volunteering' id='Volunteering'/>
+            <label for='Volunteering'>Volunteering</label></li>
+          <li class='lato'><input type='radio' name='f' value='Actions' id='Actions'/>
+            <label for='Actions'>Actions</label></li>
         </ul>
       </form>
     </div>
@@ -52,13 +48,13 @@
     </div>
   </div>
   <footer class='lato'>
-    <div class="fb-share-button" data-href="http://www.bernkit.com/" data-layout="button">
-      <a href="javascript:fbShare('http://www.bernkit.com/', 'Fb Share', 'Facebook share popup', 'http://www.bernkit.com/img/fb.png', 520, 350)">Share</a></div>&nbsp;<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://www.bernkit.com" data-text="All the online tools you can use to make Bernie the next president of these United States #feelthebern">Tweet</a>&nbsp;
+    <div class="fb-share-button" data-href="http://resources.marchforourlives.com/" data-layout="button">
+      <a href="javascript:fbShare('http://resources.marchforourlives.com/', 'Fb Share', 'Facebook share popup', 'http://resources.marchforourlives.com/img/fb.png', 520, 350)">Share</a></div>&nbsp;<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://resources.marchforourlives.com" data-text="All the online tools you can use to make Bernie the next president of these United States #feelthebern">Tweet</a>&nbsp;
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <a href='http://www.berniesanders.com/donate' class='donate-button'>Donate</a>
-    <span>&nbsp;&nbsp;&nbsp;
-    &copy; <a href='http://www.reddit.com/r/SandersForPresident' style='display: inline-block'>Grassroots for Sanders 2016</a> &bull; <a href='https://docs.google.com/forms/d/1TMrM4xFagI7SqzSD5qr2VPGUlV9jopisNOnecYq9Cgc/viewform?edit_requested=true' target='_blank' style='display: inline-block'>Join our Call Team</a> &bull; This site is not affiliated with Bernie 2016 campaign. Contact <a href='mailto:rapi@bernie2016events.org' >rapi@bernie2016events.org</a></span>
+    <h5 style='display: inline-block;'>&nbsp;&nbsp;&nbsp;
+    &copy; <a href='//marchforourlives.com' style='display: inline-block'>March for Our Lives 2018</a></h5>
   </footer>
   <script src="/js/d3.js" charset="utf-8"></script>
   <script type='text/javascript' src='js/jquery.js'></script>
@@ -101,13 +97,10 @@
         if ( filter != 'All' ) {
           dataToShow = dataToShow.filter(function(d) {
             switch (filter) {
-              case 'Official': return d.official;
-              case 'Information': return d.info;
-              case 'Activism': return d.activism;
-              case 'Voting': return d.voting;
-              case 'Phonebank': return d.phonebank;
-              case 'Communication': return d.comms;
-              case 'Games': return d.games;
+              case 'Day Of': return d['Day Of'];
+              case 'Social Media': return d['Social Media'];
+              case 'Volunteering': return d['Volunteering'];
+              case 'Actions': return d['Actions'];
             };
           });
         }
@@ -190,6 +183,7 @@
 
       this.initialize = function() {
         var that = this;
+        console.log(that.DATA_URL);
         d3.csv(that.DATA_URL,
         function(d) {
           return {
@@ -198,19 +192,17 @@
            title: d.title,
            description: d.description,
            image: d.image,
-           official: d.official == "1",
-           info: d.info == "1",
-           activism: d.activism == "1",
-           voting: d.voting == "1",
-           phonebank: d.phonebank == "1",
-           comms: d.comms == "1",
-           games: d.games == "1",
+           "Day Of": d['Day Of'] == "1",
+           "Social Media": d['Social Media'] == "1",
+           "Volunteering": d['Volunteering'] == "1",
+           "Actions": d['Actions'] == "1",
            isNew: d.isNew == "1"
           };
         },
         function(err,data) {
           that.data = data;
 
+          console.log(data);
           //Push new items to the top
           var newItems = [];
           for(var i = that.data.length-1; i > 0; i--) {
@@ -251,7 +243,7 @@
     $(window).on('hashchange', function() {
       var params = $.deparam(window.location.hash.substring(1));
 
-      if (params.f) { $("input[name=f][id="+ params.f+"]").attr("checked", "checked"); }
+      if (params.f) { $("input[name=f][id='"+ params.f+"']").attr("checked", "checked"); }
       if (!window.Manager.toolkit) {
         window.Manager.toolkit = new window.VolunteerToolkit.toolkit(params.f);
       } else {
